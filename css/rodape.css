@@ -1,0 +1,31 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--azul-agua);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.rodape_logo{
+    align-self: flex-start;
+    width: 100px;
+}
+
+.rodape_social {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.rodape_midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 2rem;
+}

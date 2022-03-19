@@ -1,0 +1,35 @@
+.cabecalho{
+    background: var(--azul-forte);
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cabecalho_logo {
+    margin-bottom: 1rem;
+    width: 400px;
+}
+
+.cabecalho_navegacao {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.cabecalho_link {
+    display: inline;
+    margin: 0 0 0 30px;
+    text-transform: uppercase;
+    color: var(--azul-agua);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.cabecalho_link:hover{
+    color: var(--cinza-claro);
+    text-decoration: underline;
+}

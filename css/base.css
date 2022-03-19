@@ -1,0 +1,19 @@
+:root {
+    --azul-forte: #142434;
+    --azul-agua: #68d2cb;
+    --cinza-claro: #b5bbc0;
+    --cinza-escuro: #717c86;
+    --cinza-medio: #848c9c;
+    
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
