@@ -2,6 +2,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     background: var(--azul-forte);
+
 }
 
 .imoveis_titulo {
@@ -16,9 +17,10 @@
 }
 
 .imoveis_lista{
-    width: 940px;
+    width: 100vw;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 2rem 0;
+    padding-left: 6rem;
 }
 
 .imoveis_lista li{
@@ -26,11 +28,16 @@
     text-align: center;
     width: 25vw;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 4.5rem;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid var(--azul-agua);
     border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.imoveis_lista li:hover{
+    transform: scale(1.1);
 }
 
 .imoveis_lista_titulo{

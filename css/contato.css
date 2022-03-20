@@ -13,11 +13,14 @@
     text-align: center;
 
     margin-bottom: 1.25rem;
+    padding-bottom: 2rem;
 }
 
 
 .formulario{
-    margin: 40px 0;
+    display: grid;
+    justify-content: center;
+
 }
 
 .formulario_label{
@@ -32,11 +35,11 @@
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 100%;
 }
 
 .formulario_botao {
-    width: 10%;
+    width: 20%;
     padding: 15px 0;
     background: var(--azul-forte);
     color: var(--azul-agua);

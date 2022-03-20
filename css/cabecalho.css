@@ -30,6 +30,6 @@
 }
 
 .cabecalho_link:hover{
-    color: var(--cinza-claro);
+    color: whitesmoke;
     text-decoration: underline;
 }

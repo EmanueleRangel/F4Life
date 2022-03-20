@@ -29,3 +29,25 @@
 
     margin: 2rem 2rem;
 }
+
+.rodape_navegacao {
+    text-align: center;
+    line-height: 3;
+}
+
+
+.rodape_link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+
+    color: var(--azul-forte);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rodape_link:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
