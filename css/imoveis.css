@@ -1,0 +1,51 @@
+.imoveis {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: var(--azul-forte);
+}
+
+.imoveis_titulo {
+    color: var(--azul-agua);
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.imoveis_lista{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.imoveis_lista li{
+    display: inline-block;
+    text-align: center;
+    width: 25vw;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--azul-agua);
+    border-radius: 10px;
+}
+
+.imoveis_lista_titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--azul-agua);
+    padding-bottom: 1rem;
+}
+
+.imoveis_lista_imagem{
+    width: 20vw;
+}
+
+.imoveis_lista_descricao{
+    font-size: 1.2rem;
+    color: var(--cinza-claro);
+    padding-top: 1rem;
+}

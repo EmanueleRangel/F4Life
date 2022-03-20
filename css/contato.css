@@ -1,13 +1,13 @@
 .contato {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background: var(--azul-forte);
+    background: var(--cinza-claro);
 }
 
 .contato_titulo {
-    color: var(--azul-agua);
+    color: var(--azul-forte);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
@@ -24,7 +24,7 @@
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-    color: var(--azul-agua);
+    color: var(--azul-forte);
     
 }
 
@@ -38,8 +38,8 @@
 .formulario_botao {
     width: 10%;
     padding: 15px 0;
-    background: var(--azul-agua);
-    color: var(--azul-forte);
+    background: var(--azul-forte);
+    color: var(--azul-agua);
     font-weight: bold;
     font-size:18px;
     border: none;
@@ -50,4 +50,13 @@
 .formulario_botao:hover{
     background: var(--cinza-escuro);
     cursor: pointer;
+}
+
+#msgEmail {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: var(--azul-forte);
+    font-weight: bold;
+    padding-top: 2rem;
 }

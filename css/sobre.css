@@ -7,7 +7,7 @@
 .sobre_titulo {
     color: var(--azul-forte);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
     text-align: center;
@@ -20,7 +20,7 @@
 
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
 
     margin-bottom: 1rem;
 }
@@ -29,4 +29,39 @@
     line-height: normal;
 
     margin-bottom: 1rem;
+
+    font-size: 1.25rem;
 }
+
+.sobre_beneficios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.sobre_beneficios_imagem{
+    width: 100vw;
+    max-width: 600px;
+
+    box-shadow: 0 2px 10px 5px #00000020;
+
+    margin-bottom: .5rem;
+}
+
+.sobre_beneficios_titulo{
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: normal;
+    padding-bottom: 1rem;
+    color: var(--azul-forte);
+}
+
+.sobre_beneficios li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+

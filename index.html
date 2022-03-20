@@ -10,7 +10,8 @@
     <link href="css/cabecalho.css" rel="stylesheet" />
     <link href="css/base.css" rel="stylesheet" />
     <link href="css/sobre.css" rel="stylesheet" />
-    <link href="css/contato.css" rel="stylesheet" />
+    <link href="css/contato.css" rel="stylesheet"/>
+    <link href="css/imoveis.css" rel="stylesheet" /> 
     <link href="css/rodape.css" rel="stylesheet" />  
   </head>
 
@@ -21,6 +22,7 @@
             <nav class="cabecalho_navegacao">
             <ul>
                 <li class="cabecalho_link"><a href="#quemSomos">Quem somos</a></li>
+                <li class="cabecalho_link"><a href="#imoveis">Imóveis</a></li>
                 <li class="cabecalho_link"><a href="#faleConosco">Fale conosco</a></li>
             </ul>
         </nav>
@@ -35,6 +37,31 @@
                 a empresa realiza reformas e prepara moradias 
                 para recepção de pessoas universitárias em um ambiente específico 
                 e otimizado para a vida de graduação.</p>
+                <ul class="sobre_beneficios">
+                <li>
+                    <h2 class="sobre_beneficios_titulo">Tenha um ambiente de estudo organizado e agradável</h2>
+                    <img src="assets/espaco-de-estudo.jpg" alt="imagem de um ambiente de estudo" class="sobre_beneficios_imagem">
+                </li>
+                <li>
+                    <h2 class="sobre_beneficios_titulo">Tenha o conforto e a comodidade de estar em um local bem localizado</h2>
+                    <img src="assets/localizaçao.jpg" alt="imagem de uma boa localização" class="sobre_beneficios_imagem">
+                </li>
+            </ul>
+        </section>
+        <section class="imoveis container" id="imoveis">
+            <h1 class="imoveis_titulo">Imóveis</h1>
+            <ul class="imoveis_lista">
+                <li>
+                    <h2 class="imoveis_lista_titulo">Moradia compartilhada</h2>
+                    <img src="assets/moradia-compartilhada.jpg" alt="imagem de moradia compartilhada" class="imoveis_lista_imagem">
+                    <p class="imoveis_lista_descricao">Compartilhe a moradia com colegas universitários, mas com quartos individuais</p>
+                </li>
+                <li>
+                    <h2 class="imoveis_lista_titulo">Kitnet</h2>
+                    <img src="assets/kitnet.jpg" alt="imagem de kitnet" class="imoveis_lista_imagem">
+                    <p class="imoveis_lista_descricao">More sozinho em um ambiente menor, mas que atende as suas necessidades</p>
+                </li>
+            </ul>
         </section>
         <section class="contato container" id="faleConosco">
             <h1 class="contato_titulo">Fale Conosco</h1>
@@ -46,15 +73,16 @@
                 <textarea cols="70" rows="10" id="texto" class="formulario_item"></textarea>
 
                 <input type="submit" value="Enviar" id="botao" class="formulario_botao">
+                <div id="msgEmail"></div>
             </form>
         </section>
     </main>
     <footer class="rodape">
         <img src="assets/f4life-footer.png" alt="logo da f4life" class="rodape_logo">
         <ul class="rodape_social">
-            <li><a href="https://www.linkedin.com/" class="rodape_midia"><img src="assets/linkedin.png" alt="Ícone do LinkedIn"></a></li>
-            <li><a href="https://twitter.com/" class="rodape_midia"><img src="assets/twitter.png" alt="Ícone do Twitter"></a></li>
-            <li><a href="https://pt-br.facebook.com/" class="rodape_midia"><img src="assets/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" class="rodape_midia"><img src="assets/linkedin.png" alt="Ícone do LinkedIn"></a></li>
+            <li><a href="https://twitter.com/" target="_blank" class="rodape_midia"><img src="assets/twitter.png" alt="Ícone do Twitter"></a></li>
+            <li><a href="https://pt-br.facebook.com/" target="_blank" class="rodape_midia"><img src="assets/facebook.png" alt="Ícone do Facebook"></a></li>
         </ul>
     </footer>
     <script src="main.js"></script>

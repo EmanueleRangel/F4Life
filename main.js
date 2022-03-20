@@ -12,12 +12,15 @@ botao.addEventListener("click", (event) => {
     const reg = /^([A-Za-z0-9\.]{1,32})+\@([a-z0-9]{1,16})+\.([A-Za-z]{2,4})$/;
 
     if (texto.value == ""){
-        alert("insira uma mensagem ");
+        var mensagem = document.getElementById("msgEmail");
+        mensagem.innerHTML="Erro no envio: Insira uma mensagem";
          }
         else if(reg.test(email.value) == false){
-            alert("email inválido");
+            var mensagem = document.getElementById("msgEmail");
+            mensagem.innerHTML="Erro no envio: Endereço de mail inválido";
         } else {
-            alert("obrigada pelo contato, " + usuario);
+            var mensagem = document.getElementById("msgEmail");
+            mensagem.innerHTML=("Obrigada pelo contato, " + usuario+" !");
         }
     }
 )
