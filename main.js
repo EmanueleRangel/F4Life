@@ -9,9 +9,10 @@ botao.addEventListener("click", (event) => {
     let resultado = email.value.split("@");
     let usuario = resultado[0];
 
-    const reg = /^([A-Za-z0-9\.]{1,32})+\@([a-z0-9]{1,16})+\.([A-Za-z]{2,4})$/;
+    const reg = /^([A-Za-z0-9\.]{1,32})\@([a-z0-9]{1,16})\.([A-Za-z]{2,4})$/;
 
     if (texto.value == ""){
+
         var mensagem = document.getElementById("msgEmail");
         mensagem.innerHTML="Erro no envio: Insira uma mensagem";
          }
