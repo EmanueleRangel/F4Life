@@ -10,10 +10,12 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    background: var(--cinza-claro); 
 }
 
 .container {
     padding-right: 6%;
     padding-left: 6%;
+    margin: 0;
 }
 
