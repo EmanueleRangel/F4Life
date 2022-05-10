@@ -7,7 +7,7 @@ para fazer as validações de email referentes ao formulário de contato.
 As cores utilizadas no visual da página foram baseadas na logomarca da empresa
 em questão.
 
-## Elementos da Landing Page
+### Elementos da Landing Page
 
 - **Cabeçalho:** contendo a logo da empresa e um menu de navegação entre as seções do site;
 - **Quem Somos:** breve descrição da área de atuação da empresa, seus serviços e vantagens que oferece;
