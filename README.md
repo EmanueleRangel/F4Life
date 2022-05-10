@@ -15,6 +15,10 @@ em questão.
 - **Fale Conosco:** formulário de contato onde o cliente pode preencher com o seu endereço email e corpo da mensagem;
 - **Rodapé:** contendo logo simplificado da empresa, menu de navegação pelas seções da página e ícones que encaminham para as redes sociais da empresa.
 
+## Imagens
+
+![Screenshot](f4life.gif)
+
 ## Tecnologias utilizadas
 - HTML
 - CSS
